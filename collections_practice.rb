@@ -19,7 +19,7 @@ end
 
 def swap_elements(array)
   def swap_elements_from_to(array, array[i], array(i + 1))
-  array.insert("index", array.delete_at("destination_index"))
+  array.insert(array[i], array.delete_at(array(i + 1)))
   index <=> destination_index
   end
   swap_elements
