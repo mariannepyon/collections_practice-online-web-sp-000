@@ -20,5 +20,6 @@ end
 def swap_elements(array)
   def swap_elements_from_to(a,b)
     array[a,b] = array[b,a]
+    a <=> b
   end
 end
