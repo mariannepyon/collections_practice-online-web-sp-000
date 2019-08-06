@@ -21,5 +21,5 @@ def swap_elements(array)
   def swap_elements_from_to(a,b)
     self[a], self[b] = self[b], self[a]
   end
-    array
+    self
   end
