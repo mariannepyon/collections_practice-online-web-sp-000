@@ -19,6 +19,6 @@ end
 
 def swap_elements(array, index, destination_index)
   array.insert("index", array.delete_at("destination_index"))
-  a <=> b
+
 end
 end
