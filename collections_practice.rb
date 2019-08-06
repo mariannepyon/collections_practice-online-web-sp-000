@@ -21,6 +21,7 @@ def swap_elements(array)
   array.sort do |a,b|
     array[a,b] <=> array[b,a]
   end
+  array
 end
 
 def reverse_array(array)
@@ -28,3 +29,6 @@ def reverse_array(array)
     a <=> b
 end
 end
+
+def kesha_maker(array)
+  array.
