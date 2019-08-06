@@ -22,5 +22,4 @@ def swap_elements(array)
   array.insert(array[i], array.delete_at(array(i + 1)))
   array[i] <=> array(i + 1)
   end
-  swap_elements
 end
