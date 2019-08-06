@@ -19,7 +19,7 @@ end
 
 def swap_elements(array)
   def swap_elements_from_to(a,b)
-    self[a], self[b] = self[b], self[a]
+    array[a], array[b] = array[b], array[a]
   end
     array
   end
