@@ -22,10 +22,3 @@ def swap_elements(array, index, destination_index)
   a <=> b
 end
 end
-
-  
-  
-
-
-
-  
