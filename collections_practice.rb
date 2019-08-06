@@ -37,6 +37,6 @@ end
 
 def find_a(array)
   array.select do |string|
-    string.chr == |a|
+    string.chr == "a"
   end
 end
