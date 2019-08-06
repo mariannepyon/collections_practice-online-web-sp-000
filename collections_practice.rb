@@ -34,3 +34,9 @@ def kesha_maker(array)
     string
   end
 end
+
+def find_a(array)
+  array.select do |string|
+    string.chr == |a|
+  end
+end
