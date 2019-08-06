@@ -52,7 +52,7 @@ def add_s(array)
     if index == 1
       element
     else
-      word + "s"
+      element + "s"
     end
   end
 end
